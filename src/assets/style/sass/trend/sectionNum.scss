@@ -1,0 +1,253 @@
+.periodswarrp {
+  .periods {
+    height: 0.43rem;
+    background: #fff;
+    display: flex;
+    color: #757575;
+    margin-bottom: 0.02rem;
+    .periods-left {
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+      line-height: 0.43rem;
+    }
+    .periods-right {
+      flex: 1;
+      ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+          border-radius: 0.1rem;
+          line-height: 0.25rem;
+          margin-top: 0.09rem;
+          padding: 0 0.1rem;
+          white-space: nowrap;
+        }
+        .curr {
+          background: #fb8e18;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .num {
+    ul {
+      li {
+        height: 0.4rem;
+        background: #fff;
+        margin-bottom: 0.01rem;
+        display: flex;
+        
+        .num-left {
+          width: 36%;
+          font-size: 0.12rem;
+          color: #7d7d7d;
+          line-height: 0.4rem;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          span {
+            padding-left: 0.05rem;
+          }
+        }
+        .num-right2{
+          display: flex !important;
+          justify-content: space-between !important;
+          align-items: center !important;
+          padding: 0 30px;
+        }
+        .num-right {
+          flex: 1;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-right: 0.05rem;
+          span {
+            display: inline-block;
+            width: 0.25rem;
+            color: #fff;
+            text-align: center;
+            line-height: 0.25rem;
+            border-radius: 50%;
+            &.isNumNav {
+              background: #0092dd;
+              position: relative;
+              .animals{
+                position: absolute;
+                bottom: -0.25rem;
+                color: #888888;
+                left: 5px;
+                font-style: normal;
+              }
+            }
+            &.redWave {
+              background-color: #E52E34;
+            }
+            &.blueWave {
+              background-color: #1790CF;
+            }
+            &.greenWave {
+              background-color: #2FB573;
+            }
+            &.isWX{
+              color: #184dd5;
+            }
+            
+            &.isTema {
+              color: #184dd5;
+              width: auto;
+            }
+            &.isOddEvenNav,
+            &.isSizeNav {
+              background-color: #9da9c3;
+            }
+            &.num_max{
+              background: #71c8f3;
+            }
+            &.color-bg {
+              background-color: #fb8e19;
+            }
+            &.color-bg-he {
+              background-color: #0cb828;
+            }
+            &.isChampionNav {
+            }
+            &.isTotalNav,
+            &.isJnSize {
+              background: #ffffff;
+              color: #184dd5;
+              width: auto;
+            }
+            &.red-color {
+              color: red;
+            }
+            &.green-color {
+              color: green;
+            }
+            &.isFcru{
+              color: #666666;
+              width: 0.3rem;
+              text-align: left;
+            }
+          }
+          span:nth-child(1) {
+            margin-left: 0.1rem;
+          }
+        }
+        .num-right-xyc{
+          span.daxiao{
+            background-color: #178CD3;
+          }
+          span.num_da{
+            background-color: #2AAE20;
+          }
+          span.danshuang{
+            background-color: #178CD3;
+          }
+          span.num-shuang{
+            background-color: #2AAE20;
+          }
+        }
+        &._jslhc{
+          height: 0.6rem;
+          .num-right-jslhc{
+            .isNumNav{
+              top: -0.1rem;
+            }
+          }
+        }
+        &.pk10 {
+          .num-right{
+            span {
+              width: 0.2rem;
+              line-height: 0.2rem;
+              font-size: 0.12rem;
+              &.isChampionNav{
+                color: #666666;
+                &:nth-of-type(1){
+                  color: red;
+                }
+              }
+              &.color-bg1,
+              &.color-bg2{
+                color: #ffffff;
+              }
+              &.color-bg1{
+                background-color: #FB8E19;
+              }
+              &.color-bg2{
+                background-color: #9DA9C3;
+              }
+              
+            }
+          }
+         
+        }
+        &._ks{
+          .num-right{
+            span.isNumNav{
+              width: 0.35rem;
+              height: 0.35rem;
+              background: url('/static/images/trend/bjpknum.png');
+              background-repeat: no-repeat;
+              background-position-x: -358px;
+              background-size: 4rem auto;
+            }
+            span.num_1{
+              background-position-y: 2px;
+            }
+            span.num_2{
+              background-position-y: -34px;
+            }
+            span.num_3{
+              background-position-y: -72px;
+            }
+            span.num_4{
+              background-position-y: -109px;
+            }
+            span.num_5{
+              background-position-y: -146px;
+            }
+            span.num_6{
+              background-position-y: -182px;
+            }
+            span{
+              border-radius: 0;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+  .jn {
+    ul{
+      li{
+        height: inherit;
+        padding-bottom: 0.05rem;
+        .num-left {
+          
+        }
+        .num-right {
+          display: initial;
+          flex-wrap: wrap;
+          
+          span{
+            margin-right: 0.05rem;
+            margin-top: 0.05rem;
+          }
+          span:nth-child(1){
+            margin-left: 0rem;
+          }
+        }
+      }
+    }
+  }
+}
+.no-data{
+  width: 100%;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #7d7d7d;
+  font-size: 0.16rem;
+}

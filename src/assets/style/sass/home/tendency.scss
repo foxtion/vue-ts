@@ -1,0 +1,127 @@
+.tendency-box {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    >div {
+        border-radius: 8px;
+        height: 100%;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+        background: #fff;
+        &:nth-of-type(1) {
+            flex: 1;
+            .top-menu {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-sizing: border-box;
+                padding: 0 20px;
+                height: 35px;
+                position: relative;
+                .line {
+                    position: absolute;
+                    width: 95%;
+                    height: 1px;
+                    background-color: #F7F7F7;
+                    top: 47px;
+                }
+                li {
+                    flex: 1;
+                    text-align: center;
+                    border-right: 1px solid #EFEFEF;
+                    &:last-child {
+                        border: none;
+                    }
+                    span {
+                        font-size: 0.18rem;
+                        color: #464646;
+                        padding-bottom: 15px;
+                        cursor: pointer;
+                        &.active,
+                        &:hover {
+                            color: #F02F22;
+                            border-bottom: 3px solid #F02F22;
+                        }
+                    }
+                }
+            }
+            .labelLists {
+                display: flex;
+                margin-top: 35px;
+                margin-left: 20px;
+                position: relative;
+                li {
+                    border-right: 1px solid #ECECEC;
+                    &.last-child {
+                        border: none;
+                    }
+                    span {
+                        cursor: pointer;
+                        padding: 0 10px;
+                        &:hover,
+                        &.active {
+                            color: #F02F22;
+                        }
+                    }
+                }
+                >span {
+                    position: absolute;
+                    right: 30px;
+                    cursor: pointer;
+                    &:hover {
+                        color: #F02F22;
+                    }
+                }
+            }
+            .charts {
+                height: 280px;
+                margin-left: 30px;
+                position: relative;
+                .issue {
+                    position: absolute;
+                    bottom: 30px;
+                    left: 48%;
+                }
+                .number {
+                    position: absolute;
+                    top: 47%;
+                    left: -17px;
+                    transform: rotate(270deg);
+                }
+            }
+        }
+        &:nth-of-type(2) {
+            width: 282px;
+            margin-left: 12px;
+            h3 {
+                font-size: 0.18rem;
+                color: #333333;
+                font-weight: 600;
+                padding: 15px 5px;
+                span {
+                    color: #999999;
+                    font-weight: 200;
+                    font-size: 0.14rem;
+                }
+            }
+            .skills-list {
+                padding: 10px;
+                width: 100%;
+                .skills-item {
+                    line-height: 36px;
+                    width: 93%;
+                    height: 36px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 14px;
+                    cursor: pointer;
+                    .lottery-name {
+                        color: #ed1c24;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

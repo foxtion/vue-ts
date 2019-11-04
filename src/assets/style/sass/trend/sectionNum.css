@@ -1,0 +1,197 @@
+.periodswarrp .periods {
+  height: 0.43rem;
+  background: #fff;
+  display: flex;
+  color: #757575;
+  margin-bottom: 0.02rem;
+}
+
+.periodswarrp .periods .periods-left {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 0.43rem;
+}
+
+.periodswarrp .periods .periods-right {
+  flex: 1;
+}
+
+.periodswarrp .periods .periods-right ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.periodswarrp .periods .periods-right ul li {
+  border-radius: 0.1rem;
+  line-height: 0.25rem;
+  margin-top: 0.09rem;
+  padding: 0 0.1rem;
+}
+
+.periodswarrp .periods .periods-right ul .curr {
+  background: #fb8e18;
+  color: #fff;
+}
+
+.periodswarrp .num ul li {
+  height: 0.4rem;
+  background: #fff;
+  margin-bottom: 0.01rem;
+  display: flex;
+}
+
+.periodswarrp .num ul li .num-left {
+  width: 36%;
+  font-size: 0.12rem;
+  color: #7d7d7d;
+  line-height: 0.4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.periodswarrp .num ul li .num-left span {
+  padding-left: 0.05rem;
+}
+
+.periodswarrp .num ul li .num-right {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.periodswarrp .num ul li .num-right span {
+  display: inline-block;
+  width: 0.25rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.25rem;
+  border-radius: 50%;
+}
+
+.periodswarrp .num ul li .num-right span.isNumNav {
+  background: #0092dd;
+}
+
+.periodswarrp .num ul li .num-right span.isOddEvenNav, .periodswarrp .num ul li .num-right span.isSizeNav {
+  background-color: #9da9c3;
+}
+
+.periodswarrp .num ul li .num-right span.num_max {
+  background: #71c8f3;
+}
+
+.periodswarrp .num ul li .num-right span.color-bg {
+  background-color: #fb8e19;
+}
+
+.periodswarrp .num ul li .num-right span.color-bg-he {
+  background-color: #0cb828;
+}
+
+.periodswarrp .num ul li .num-right span.isTotalNav {
+  background: #ffffff;
+  color: #184dd5;
+  width: auto;
+}
+
+.periodswarrp .num ul li .num-right span.red-color {
+  color: red;
+}
+
+.periodswarrp .num ul li .num-right span.green-color {
+  color: green;
+}
+
+.periodswarrp .num ul li .num-right span.isFcru {
+  color: #666666;
+  width: 0.3rem;
+  text-align: left;
+}
+
+.periodswarrp .num ul li .num-right span:nth-child(1) {
+  margin-left: 0.1rem;
+}
+
+.periodswarrp .num ul li.pk10 .num-right span {
+  width: 0.2rem;
+  line-height: 0.2rem;
+  font-size: 0.12rem;
+}
+
+.periodswarrp .num ul li.pk10 .num-right span.isChampionNav {
+  color: #666666;
+}
+
+.periodswarrp .num ul li.pk10 .num-right span.isChampionNav:nth-of-type(1) {
+  color: red;
+}
+
+.periodswarrp .num ul li.pk10 .num-right span.color-bg1, .periodswarrp .num ul li.pk10 .num-right span.color-bg2 {
+  color: #ffffff;
+}
+
+.periodswarrp .num ul li.pk10 .num-right span.color-bg1 {
+  background-color: #FB8E19;
+}
+
+.periodswarrp .num ul li.pk10 .num-right span.color-bg2 {
+  background-color: #9DA9C3;
+}
+
+.periodswarrp .num ul li._ks .num-right span.isNumNav {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url("/static/images/trend/bjpknum.png");
+  background-repeat: no-repeat;
+  background-position-x: -358px;
+  background-size: 4rem auto;
+}
+
+.periodswarrp .num ul li._ks .num-right span.num_1 {
+  background-position-y: 2px;
+}
+
+.periodswarrp .num ul li._ks .num-right span.num_2 {
+  background-position-y: -34px;
+}
+
+.periodswarrp .num ul li._ks .num-right span.num_3 {
+  background-position-y: -72px;
+}
+
+.periodswarrp .num ul li._ks .num-right span.num_4 {
+  background-position-y: -109px;
+}
+
+.periodswarrp .num ul li._ks .num-right span.num_5 {
+  background-position-y: -146px;
+}
+
+.periodswarrp .num ul li._ks .num-right span.num_6 {
+  background-position-y: -182px;
+}
+
+.periodswarrp .num ul li._ks .num-right span {
+  border-radius: 0;
+}
+
+.periodswarrp .jn ul li {
+  height: 0.95rem;
+}
+
+.periodswarrp .jn ul li .num-right {
+  display: initial;
+  flex-wrap: wrap;
+}
+
+.periodswarrp .jn ul li .num-right span {
+  margin-right: 0.05rem;
+  margin-top: 0.05rem;
+}
+
+.periodswarrp .jn ul li .num-right span:nth-child(1) {
+  margin-left: 0rem;
+}

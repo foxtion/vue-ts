@@ -1,0 +1,24 @@
+.doubleFaced{
+  background-color: #fff;
+  padding: 0.05rem;
+  h4{
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    border: 1px solid #DEDEDE;
+    border-bottom: none;
+  }
+  table{
+    width: 100%;
+    th,td{
+      line-height: 0.35rem;
+      border: 1px solid #DEDEDE;
+      text-align: center;
+      color: #666;
+      min-width: 0.3rem;
+      &:first-child{
+        font-weight: 600;
+      }
+    }
+  }
+}

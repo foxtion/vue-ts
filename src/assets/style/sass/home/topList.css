@@ -1,0 +1,251 @@
+.top-list {
+  width: 100%;
+  height: 465px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  display: flex;
+}
+
+.top-list .menu {
+  width: 220px;
+}
+
+.top-list .menu ul {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.top-list .menu ul li {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.top-list .menu ul li:hover {
+  background: #EEEEEE;
+}
+
+.top-list .menu ul li img {
+  width: 37px;
+  height: 37px;
+}
+
+.top-list .menu ul li span {
+  font-size: 14px;
+  color: #333;
+  flex: 1;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.top-list .banner {
+  flex: 1;
+  position: relative;
+}
+
+.top-list .banner .banner-box {
+  width: 100%;
+  height: 323px;
+}
+
+.top-list .banner .banner-box img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-list .banner .recommend {
+  width: 100%;
+  height: calc(100% - 323px);
+}
+
+.top-list .banner .recommend ul {
+  margin-top: 12px;
+}
+
+.top-list .banner .recommend ul li {
+  float: left;
+  position: relative;
+  width: 131px;
+  height: 120px;
+  border-left: 1px solid #E8E8E8;
+}
+
+.top-list .banner .recommend ul li:hover {
+  cursor: pointer;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.top-list .banner .recommend ul li .img-box {
+  width: 40%;
+  margin: 15px auto 20px;
+}
+
+.top-list .banner .recommend ul li .img-box img {
+  width: 100%;
+}
+
+.top-list .banner .recommend ul li .title-name {
+  text-align: center;
+}
+
+.top-list .banner .recommend ul li .recommend-text {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  width: 0;
+  height: 0;
+  border: 40px solid transparent;
+  border-bottom-color: #D71D05;
+  transform: rotate(-45deg);
+}
+
+.top-list .banner .recommend ul li .recommend-text em {
+  font-style: normal;
+  color: #ffffff;
+  position: absolute;
+  width: 30px;
+  transform: rotate(1deg);
+  top: 18px;
+  left: -10px;
+}
+
+.top-list .banner .lotteryDetails {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  z-index: 99;
+}
+
+.top-list .banner .lotteryDetails .list-box {
+  box-sizing: border-box;
+  height: 48%;
+  padding: 35px 35px 15px 35px;
+}
+
+.top-list .banner .lotteryDetails .list-box h3 {
+  font-size: 15px;
+  color: #FF292B;
+  font-weight: 200;
+}
+
+.top-list .banner .lotteryDetails .list-box ul {
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.top-list .banner .lotteryDetails .list-box ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top-list .banner .lotteryDetails .list-box ul li {
+  font-size: 14px;
+  color: #4D555D;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  float: left;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.top-list .banner .lotteryDetails .list-box ul li:hover {
+  color: #FF292B;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv {
+  height: 48%;
+  padding-top: 20px;
+  background-color: #F8FAFC;
+  padding-right: 10px;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li {
+  width: 48%;
+  height: 45%;
+  margin-bottom: 12px;
+  padding: 10px 10px 0;
+  box-sizing: border-box;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box {
+  display: flex;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .item-img {
+  width: 97px;
+  height: 75px;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .item-img img {
+  width: 60px;
+  height: 60px;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .details-box {
+  flex: 1;
+  position: relative;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .details-box .title-text {
+  font-size: 0.15rem;
+  color: #545454;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .details-box .time-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .details-box .time-box .time-text {
+  font-size: 0.14rem;
+  color: #999999;
+  line-height: 30px;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .details-box .time-box .red-time {
+  color: #F1463B;
+  font-size: 0.17rem;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .details-box .time-box .sinarv-btn {
+  font-size: 0.12rem;
+  color: #ffffff;
+  padding: 5px 15px;
+  background-color: #F1463B;
+  margin-left: 10px;
+}
+
+.top-list .banner .lotteryDetails .hot-sinatv > ul > li .top-box .details-box .time-box .sinarv-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.top-list .banner .el-carousel--horizontal {
+  overflow: hidden;
+}
+
+.top-list .banner .el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.top-list .banner .el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
+}

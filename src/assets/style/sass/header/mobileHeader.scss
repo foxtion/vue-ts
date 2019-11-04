@@ -1,0 +1,47 @@
+.mobile-header{
+  width: 100vw;
+  position: fixed;
+  padding: 0 0.05rem;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  height: 0.44rem;
+  align-items: center;
+  display: flex;
+  z-index: 10;
+  .logo-box{
+    width: 1.16rem;
+    img{
+      width: 100%;
+    }
+  }
+  .slot-box{
+    flex: 1;
+  }
+  .menu{
+    width: 0.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    i{
+      font-size: 0.2rem;
+    }
+  }
+}
+.menu-pannel{
+  position: fixed;
+  top: 0.42rem;
+  right: 0.02rem;
+  z-index: 5;
+  width: 1.2rem;
+  padding:0.1rem 0.2rem;
+  background: #FFFFFF;
+  border-radius: 5px;
+  text-align: center;
+  li{
+    line-height: 0.4rem;
+    a{
+      font-size: 0.18rem;
+      color: #333333;
+    }
+  }
+}

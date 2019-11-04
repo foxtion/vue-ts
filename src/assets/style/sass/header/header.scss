@@ -1,0 +1,123 @@
+.header {
+    position: fixed;
+    min-width: 1400px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    height: 72px !important;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.12);
+    >div {
+        height: 100%;
+        box-sizing: border-box;
+    }
+    .left-box {
+        width: 750px;
+        padding-left: 98px;
+        position: relative;
+        >ul {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+            align-items: center;
+            li {
+                flex: 1;
+                color: #4d555d;
+                cursor: pointer;
+                text-align: center;
+                a{
+                    font-size: 0.16rem;
+                }
+                &.active a,
+                &.active i {
+                    font-size: 0.21rem;
+                    color: #ff292b;
+                }
+                &:hover a,
+                &:hover i {
+                    color: #ff292b;
+                }
+              img{
+                height: 54px;
+              }
+            }
+        }
+        .lotteryTrend {
+            width: 100vw;
+            box-sizing: border-box;
+            padding: 20px;
+            background: #FFFFFF;
+            box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.21);
+            position: absolute;
+            top: 72px;
+            left: 0;
+            z-index: 99;
+            >div {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                .item-title {
+                    width: 200px;
+                    font-size: 16px;
+                    color: #FF292B;
+                    text-align: right;
+                    font-weight: bold;
+                }
+                .lotteryTrend-list {
+                    flex: 1;
+                    margin-left: 25px;
+                    margin-right: 25px;
+                    &::after {
+                        content: '';
+                        clear: both;
+                        display: block;
+                    }
+                    li {
+                        font-size: 14px;
+                        color: #666666;
+                        float: left;
+                        margin: 8px;
+                        cursor: pointer;
+                        &:hover {
+                            color: #FF292B;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .right-box {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        align-items: center;
+        p {
+            margin-right: 177px;
+            width: 565px;
+            line-height: 36px;
+            background: #f8fafc;
+            border: 1px solid #dcdcdc;
+            border-radius: 20.5px;
+            box-sizing: border-box;
+            padding: 0 15px;
+            font-size: 14px;
+            color: #909090;
+            .iconfont {
+                font-size: 20px;
+                margin-right: 5px;
+                color: #919292;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1400px) {
+    .header {
+      min-width: 1200px;
+  }
+}

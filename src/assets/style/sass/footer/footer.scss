@@ -1,0 +1,89 @@
+.footerwarp {
+    background: #F8FAFC;
+    box-shadow: 3px 0px 5px 0 rgba(0, 0, 0, 0.12);
+    width: 100%;
+    .footer {
+        min-width: 1400px;
+        height: 142px;
+        margin: 0 auto;
+        .foot {
+            width: 1300px;
+            height: 100%;
+            padding: 26px 50px 22px 50px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            .foot-flex {
+                display: flex;
+                justify-content: space-between;
+                .flex-left {
+                    .left-top {
+                        width: 850px;
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 22px;
+                        ul {
+                            width: 100%;
+                            display: flex;
+                            //justify-content: space-between;
+                            li {
+                                margin-right: 50px;
+                                font-family: PingFangSC-Medium;
+                                font-size: 16px;
+                                color: #A3ABB0;
+                                cursor: pointer;
+                                &:hover {
+                                    color: #ff292b;
+                                }
+                            }
+                            // .active{
+                            //   color: #ff292b;
+                            // }
+                        }
+                    }
+                    .left-bottom {
+                        margin-top: 26px;
+                        font-family: PingFangSC-Medium;
+                        font-size: 13px;
+                        color: #A3ABB0;
+                    }
+                }
+                .flex-right {
+                    width: 222px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    .right-l {
+                        display: flex;
+                        flex-direction: column;
+                        img {
+                            width: 55px;
+                            height: 48px;
+                            margin-left: 20px;
+                        }
+                        p {
+                            margin-top: 10px;
+                            font-family: PingFangSC-Regular;
+                            font-size: 14px;
+                            color: #A3ABB0;
+                        }
+                    }
+                    .right-r {
+                        display: flex;
+                        flex-direction: column;
+                        img {
+                            width: 55px;
+                            height: 48px;
+                            margin-left: 20px;
+                        }
+                        p {
+                            margin-top: 10px;
+                            font-family: PingFangSC-Regular;
+                            font-size: 14px;
+                            color: #A3ABB0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
