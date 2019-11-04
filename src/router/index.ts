@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: ()=> import('@/pages/home/home.vue')
+      name: 'index',
+      component: ()=> import('@/pages/index.vue')
     }
   ]
 })
